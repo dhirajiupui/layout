@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+}
+
+
+h1{
+    margin: 10px 550px;
+}
+
+
+a{
+    margin: 0 200px;
+    line-height: 60px
+}
+img{
+    margin-top: 150px;
+    margin-left: 355px;
+
+}
+
+nav{
+    height: 60px;
+    width: 100%;
+    background-color: coral;
+    position: fixed;
+    right: 0;
+}
+
+.menuIcon{
+    height: 100%;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+
+}
+
+.bar{
+    height: 6px;
+    width: 80%;
+    background-color: white;
+}
+.Menu{
+    position: fixed;
+    top: 60px;
+    right: -150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: aqua;
+    min-height: 150px;
+    transition: 0.125s;
+}
